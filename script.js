@@ -3,8 +3,8 @@ document.getElementById('copy-btn').addEventListener('click', copyPassword);
 
 function generatePassword() {
     const length = parseInt(document.getElementById('length').value);
-    if (isNaN(length) || length < 1 || length > 300) {
-        alert('Por favor, insira um tamanho válido (1-300).');
+    if (isNaN(length) || length < 4 || length > 300) {
+        alert('Por favor, insira um tamanho válido (4-300).');
         return;
     }
 
