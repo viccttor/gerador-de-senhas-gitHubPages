@@ -4,8 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
     margin: 0;
+    background-color: #f0f0f0;
+  
 }
 
 .container {
@@ -49,7 +50,21 @@ textarea {
     margin-bottom: 20px;
 }
 
+.options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 50px; 
+}
+
 label {
     display: block;
     margin-bottom: 10px;
 }
+
