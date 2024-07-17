@@ -1,3 +1,3 @@
 # gerador-de-senhas
  
-https://viccttor.github.io/gerador-de-senhas-gitHubPages/
+https://viccttor.github.io/gerador-de-senhas-js/
