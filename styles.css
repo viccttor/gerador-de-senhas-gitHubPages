@@ -46,7 +46,7 @@ textarea {
 }
 
 textarea#password {
-    border: 1px solid transparent; /* Torna a borda do campo de senha gerada transparente */
+    border: 1px solid transparent; 
 }
 
 .options {
@@ -59,7 +59,7 @@ textarea#password {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    margin-right: 20px; /* Espaçamento entre as opções */
+    margin-right: 20px;
 }
 
 label {
@@ -71,12 +71,12 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Espaçamento entre o slider e o campo de número */
+    gap: 10px; 
     margin-top: 10px;
 }
 
 button#generate-btn {
-    margin-top: 10px; /* Espaçamento entre a quantidade de caracteres e o botão */
+    margin-top: 10px; 
 }
 
 input[type="range"] {
