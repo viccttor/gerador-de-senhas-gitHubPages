@@ -6,7 +6,6 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-  
 }
 
 .container {
@@ -46,8 +45,8 @@ textarea {
     font-family: Arial, sans-serif;
 }
 
-.options {
-    margin-bottom: 20px;
+textarea#password {
+    border: 1px solid transparent; /* Torna a borda do campo de senha gerada transparente */
 }
 
 .options {
@@ -60,7 +59,7 @@ textarea {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    margin-right: 50px; 
+    margin-right: 20px; /* Espaçamento entre as opções */
 }
 
 label {
@@ -68,3 +67,23 @@ label {
     margin-bottom: 10px;
 }
 
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre o slider e o campo de número */
+    margin-top: 10px;
+}
+
+button#generate-btn {
+    margin-top: 10px; /* Espaçamento entre a quantidade de caracteres e o botão */
+}
+
+input[type="range"] {
+    width: 60%;
+}
+
+input[type="number"] {
+    width: 20%;
+    padding: 5px;
+}

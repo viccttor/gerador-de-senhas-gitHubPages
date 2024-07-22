@@ -44,3 +44,16 @@ function copyPassword() {
     document.execCommand('copy');
     alert('Senha copiada: ' + passwordField.value);
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const lengthSlider = document.getElementById('length-slider');
+    const lengthInput = document.getElementById('length');
+
+    lengthSlider.addEventListener('input', () => {
+        lengthInput.value = lengthSlider.value;
+    });
+
+    lengthInput.addEventListener('input', () => {
+        lengthSlider.value = lengthInput.value;
+    });
+});
