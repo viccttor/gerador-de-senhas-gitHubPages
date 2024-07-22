@@ -46,8 +46,6 @@ function copyPassword() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Acionado!');
-
     const lengthSlider = document.getElementById('length-slider');
     const lengthInput = document.getElementById('length');
 
