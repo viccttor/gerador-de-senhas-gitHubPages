@@ -40,7 +40,7 @@ function generatePassword() {
 function copyPassword() {
     const passwordField = document.getElementById('password');
     passwordField.select();
-    passwordField.setSelectionRange(0, 99999); // Para dispositivos móveis
+    passwordField.setSelectionRange(0, 99999); 
     document.execCommand('copy');
     alert('Senha copiada: ' + passwordField.value);
 }
